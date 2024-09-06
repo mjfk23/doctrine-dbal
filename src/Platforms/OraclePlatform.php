@@ -1015,8 +1015,9 @@ SQL
 
             $notnull = '';
 
+            // mjk: $this->getDefaultValueDeclarationSQL() already sets NULL
             if (isset($column['notnull'])) {
-                $notnull = $column['notnull'] ? ' NOT NULL' : ' NULL';
+                $notnull = $column['notnull'] ? ' NOT NULL' : '';
             }
 
             if (! empty($column['unique'])) {
