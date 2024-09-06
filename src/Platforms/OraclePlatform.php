@@ -1197,7 +1197,7 @@ SQL
      */
     public function getMaxIdentifierLength()
     {
-        return 30;
+        return 128;
     }
 
     /**
