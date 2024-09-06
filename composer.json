@@ -69,5 +69,10 @@
     },
     "autoload-dev": {
         "psr-4": { "Doctrine\\DBAL\\Tests\\": "tests" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-mjfk23-3.9.x": "3.9.x-dev"
+        }
     }
 }
